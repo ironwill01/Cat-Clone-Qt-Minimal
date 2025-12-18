@@ -1,0 +1,5 @@
+App_autogen/timestamp: \
+	/home/ironwill/Desktop/Project/C++/Practice/app/CMakeLists.txt \
+	/home/ironwill/Desktop/Project/C++/Practice/app/main.cpp \
+	/usr/share/cmake/Modules/GNUInstallDirs.cmake \
+	/usr/bin/cmake

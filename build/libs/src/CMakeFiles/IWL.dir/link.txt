@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIWL.a CMakeFiles/IWL.dir/IWL_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libIWL.a

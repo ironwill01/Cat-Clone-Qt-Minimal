@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ironwill/Desktop/Project/C++/Practice/build/cmake_install.cmake",
+		"/home/ironwill/Desktop/Project/C++/Practice/build/libs/cmake_install.cmake",
+		"/home/ironwill/Desktop/Project/C++/Practice/build/libs/src/cmake_install.cmake",
+		"/home/ironwill/Desktop/Project/C++/Practice/build/libs/includes/cmake_install.cmake",
+		"/home/ironwill/Desktop/Project/C++/Practice/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

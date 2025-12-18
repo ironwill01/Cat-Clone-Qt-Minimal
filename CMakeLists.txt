@@ -5,14 +5,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 
-find_package(Qt6 REQUIRED COMPONENTS Core)
-
-set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR/CMake}")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake")
 
 # generic project names 
-set(LIB_NAME_INCLUDE ClockIncludes)
-set(LIB_NAME ClockLib)
-set(EXE_NAME QClockApp)
+set(LIB_NAME_INCLUDE IWI)
+set(LIB_NAME IWL)
+set(EXE_NAME App)
 
 include(Addall)
 
@@ -21,5 +19,7 @@ project(
     VERSION 1.0.0
     LANGUAGES CXX C
 )
+
+find_package(Qt6 REQUIRED COMPONENTS Core)
 
 add_subdir_list(libs app)

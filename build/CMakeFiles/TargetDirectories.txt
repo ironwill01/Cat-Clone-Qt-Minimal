@@ -1,0 +1,16 @@
+/home/ironwill/Desktop/Project/C++/Practice/build/CMakeFiles/edit_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/CMakeFiles/rebuild_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/CMakeFiles/edit_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/CMakeFiles/rebuild_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/src/CMakeFiles/IWL.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/src/CMakeFiles/edit_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/src/CMakeFiles/rebuild_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/src/CMakeFiles/IWL_autogen_timestamp_deps.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/src/CMakeFiles/IWL_autogen.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/includes/CMakeFiles/edit_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/libs/includes/CMakeFiles/rebuild_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/app/CMakeFiles/App.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/app/CMakeFiles/edit_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/app/CMakeFiles/rebuild_cache.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/app/CMakeFiles/App_autogen_timestamp_deps.dir
+/home/ironwill/Desktop/Project/C++/Practice/build/app/CMakeFiles/App_autogen.dir

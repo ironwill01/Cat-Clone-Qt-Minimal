@@ -1,0 +1,27 @@
+add_library(
+    ${LIB_NAME_INCLUDE} INTERFACE
+)
+
+file(GLOB_RECURSE INCLUDE_DIRS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE}/**/*.hpp")
+
+set(INCLUDE_REAL_DIRS "")
+
+
+foreach(file ${INCLUDE_DIRS})
+    get_filename_component(dir ${file} DIRECTORY)
+    list(APPEND INCLUDE_REAL_DIRS ${dir})
+endforeach()
+
+list(REMOVE_DUPLICATES INCLUDE_REAL_DIRS)
+
+target_include_directories(
+    ${LIB_NAME_INCLUDE}
+        INTERFACE
+            ${INCLUDE_REAL_DIRS}
+)
+
+target_link_libraries(
+    ${LIB_NAME_INCLUDE}
+        INTERFACE
+            Qt6::Core
+)
