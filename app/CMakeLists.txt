@@ -1,0 +1,1 @@
+qt_add_executable(${EXE_NAME} main.cpp)
