@@ -28,7 +28,7 @@ void catFile(const QString & data) {
 bool readFile(QFile & file) {
     if(file.open(QIODevice::ReadOnly)) {
         while(!file.atEnd()) {
-            qInfo().noquote() << file.readLine();
+            qInfo().noquote() << file.readLine().replace('\n' , " ");
         }
         
         return true;
