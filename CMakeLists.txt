@@ -21,8 +21,6 @@ project(
     LANGUAGES CXX C
 )
 
-qt_standard_project_setup()
-
 find_package(Qt6 REQUIRED COMPONENTS Core)
 
 add_subdir_list(libs app)
