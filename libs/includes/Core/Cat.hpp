@@ -6,6 +6,7 @@
 class QString;
 class QFile;
 
+
 /**
  * @brief Get the File object
  * 
@@ -13,6 +14,7 @@ class QFile;
  * @return std::unique_ptr<QFile> 
  */
 std::unique_ptr<QFile> getFile(const QString & path);
+
 
 /**
  * @brief Main function to mimic the cat 
