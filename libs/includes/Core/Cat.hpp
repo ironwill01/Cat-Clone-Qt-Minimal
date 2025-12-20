@@ -5,7 +5,7 @@
 
 class QString;
 class QFile;
-
+struct CLIOptions;
 
 /**
  * @brief Get the File object
@@ -21,7 +21,7 @@ std::unique_ptr<QFile> getFile(const QString & path);
  * 
  * @param data 
  */
-void catFile(const QString & data , const char * flags = nullptr);
+void catFile(CLIOptions & options);
 
 
 /**
@@ -31,7 +31,7 @@ void catFile(const QString & data , const char * flags = nullptr);
  * @return true 
  * @return false 
  */
-bool readFile(QFile & file , const char * flags = nullptr);
+bool readFile(QFile & file , CLIOptions & options);
 
 
 #endif //CAT_HPP
