@@ -47,7 +47,7 @@ bool readFile(QFile &file, CLIOptions &options) {
 
         if (options.colorWords && !options.wordToColor.isEmpty()) {
             QString colored = "\033[31m" + options.wordToColor + "\033[0m";  // Red highlight
-            line.replace(options.wordToColor, colored, Qt::CaseInsensitive);
+            line.replace(options.wordToColor, colored, Qt::CaseSensitive);
         }
 
         if (options.removeChars && !options.wordToRemove.isEmpty()) {
