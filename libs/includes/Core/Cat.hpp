@@ -21,7 +21,7 @@ std::unique_ptr<QFile> getFile(const QString & path);
  * 
  * @param data 
  */
-void catFile(const QString & data);
+void catFile(const QString & data , const char * flags = nullptr);
 
 
 /**
@@ -31,7 +31,7 @@ void catFile(const QString & data);
  * @return true 
  * @return false 
  */
-bool readFile(QFile & file);
+bool readFile(QFile & file , const char * flags = nullptr);
 
 
 #endif //CAT_HPP

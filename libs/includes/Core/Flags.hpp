@@ -1,12 +1,11 @@
 #ifndef FLAGS_HPP
 #define FLAGS_HPP
 
+#include <memory>
+
 class QString;
+class QCommandLineParser;
 
-bool lineNumbers();
-
-bool removeChars(char character);
-
-bool removeWord(const QString & word);
+std::unique_ptr<QCommandLineParser> flagsInit();
 
 #endif //FLAGS_HPP
