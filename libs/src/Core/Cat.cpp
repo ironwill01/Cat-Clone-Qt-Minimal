@@ -22,7 +22,7 @@ std::unique_ptr<QFile> getFile(const QString & path) {
 void catFile(CLIOptions & options) {
     if(auto file = getFile(options.filePath)) {
         if(!readFile(*file , options)) {
-            qFatal() << "Error : File you passed either was not readable or found exiting ...";
+            qWarning() << "Error : File you passed either was not readable or found exiting ...";
         }
     }        
 };
